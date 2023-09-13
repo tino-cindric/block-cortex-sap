@@ -1,15 +1,15 @@
 constant: CONNECTION_NAME {
-  value: "thorsten"
+  value: "cortex-sap-hana-bq"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "thorstenstaerk-cortex4"
+  value: "syntio-cortex-enbl-dev"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "SAP_REPORTING"
+  value: "SAP_S4_REPORTING"
   export: override_required
 }
 
